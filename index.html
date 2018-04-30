@@ -98,7 +98,13 @@
 									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
 								</ul>
 							</form>
+Your name:
 
+Your email:
+
+Your message:
+
+the form again."; } else{ $from="From: $name<$email>\r\nReturn-path: $email"; $subject="Message sent using your contact form"; mail("youremail@yoursite.com", $subject, $message, $from); echo "Email sent!"; } } ?>
 						</div>
 					</section>
 
