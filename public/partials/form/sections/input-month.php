@@ -1,0 +1,2 @@
+<label class="age-gate-label" for="age-gate-m"><?php _e('Month', 'age-gate'); ?></label>
+<input type="text" name="age_gate[m]" id="age-gate-m" class="age-gate-input" value="<?php echo (isset($age['m']) ? $age['m'] : '') ?>" placeholder="<?php _e('MM', 'age-gate'); ?>" required minlength="2" maxlength="2" pattern="\d+" autocomplete="off">
