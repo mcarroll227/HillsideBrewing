@@ -1,24 +1,5 @@
 <!DOCTYPE HTML>
 
-
- <?php
- session_start();
- if ($_REQUEST["over21"] == 1) {
-     $_SESSION["over21"] = 1;
- 
-     header("Location: " . $_REQUEST["redirect"]);
- }
- ?>
- <html>
-     <head>
-         <title>Verify Your Age</title>
-     </head>
-     <body>
-         <a href="verify.php?over18=1&
- redirect=<?=$redirect?>">I am over 21</a> | 
-         <a href="http://www.google.com/">I am not over 21</a>
-     </body>
- </html>
 <html>
 	
 	
