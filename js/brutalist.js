@@ -110,6 +110,11 @@ $(document).ready(function(){
         domain:   [0.0, 1.0],
         viewport: { x: 0.0, y: 0.0, width: 1000.0, height: 500.0 }
     });
+
+    /*** MATT CARROLL ADDED: IMAGE POPUP CODE */
+    $(document).ready(function() {
+        $('.image-link').magnificPopup({type:'image'});
+      });
 	/*** Spiral */
     var spiral = function (t)
     {
