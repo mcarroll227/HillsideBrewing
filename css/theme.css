@@ -21,3 +21,4 @@ p { font-size: 1.1em }
 }
 
 .about-section .tabs input[type="radio"]:checked + label { background: #fff !important; } /* Force white background on active tabs on home page */
+
